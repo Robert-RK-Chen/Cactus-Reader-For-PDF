@@ -69,7 +69,7 @@ Copyright (C) Robert Chen, 2025.
 
 7. Debug 模式下，在 Visual Studio 中执行：调试-开始调试，屏幕上出现应用程序窗口，并被定位至：https://www4.bing.com，则表明项目构建成功：
 
-    ![image-20250928215922446](Images/Step8.png)
+    ![](Images/Step8.png)
 
 ---
 
