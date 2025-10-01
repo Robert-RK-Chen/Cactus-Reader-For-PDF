@@ -1,4 +1,4 @@
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/6a78d5d4-a85a-4e99-8fa1-4d6d7ccc31d0" /># 使 Qt 集成 Chromium Embedded Framework
+# 使 Qt 集成 Chromium Embedded Framework
 
 Copyright (C) Robert Chen, 2025.
 
