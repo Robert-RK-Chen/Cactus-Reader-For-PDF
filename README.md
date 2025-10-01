@@ -1,4 +1,4 @@
-# 使 Qt 集成 Chromium Embedded Framework
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/6a78d5d4-a85a-4e99-8fa1-4d6d7ccc31d0" /># 使 Qt 集成 Chromium Embedded Framework
 
 Copyright (C) Robert Chen, 2025.
 
@@ -75,4 +75,13 @@ Copyright (C) Robert Chen, 2025.
 
 ---
 
-由于 Github 的大文件限制策略，存储库内不包含 Chromium Embedded Framework 构建的二进制文件，因此您只需要在 CEF 构建完成后，按照步骤1与步骤2，即可正常调试项目。
+由于 Github 的大文件限制策略，存储库内不包含 Chromium Embedded Framework 构建的二进制文件，因此您只需要在 CEF 构建完成后，按照步骤1与步骤2，即可正常调试项目，项目构建完成后，目录下的文件类似于：
+    ![](Images/Step9.png)
+
+## 步骤3. 安装 Cactus Reader For PDF
+
+1. 在左侧的 Release 下载 Cactus Reader 的安装包，根据安装向导的提示安装完成后运行 Cactus Reader For FDP，您应该看到：
+
+    ![](Images/Step10.png)
+
+   这表示您已安装成功！请注意，目前项目仅构建 Windows x64 平台。
