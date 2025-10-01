@@ -1,5 +1,6 @@
 ﻿#include "CactusReaderForPDF.h"
 #include "SimpleHandler.h"
+#include <qfile.h>
 
 CactusReaderForPDF::CactusReaderForPDF(QWidget* parent) : QMainWindow(parent)
 {
@@ -8,7 +9,15 @@ CactusReaderForPDF::CactusReaderForPDF(QWidget* parent) : QMainWindow(parent)
     CefRefPtr<SimpleHandler> handler(new SimpleHandler());
     CefBrowserSettings browser_settings;
     CefWindowInfo window_info;
-    std::string url = "https://www4.bing.com";
+
+    browser_settings.javascript = STATE_ENABLED;
+    browser_settings.local_storage = STATE_ENABLED;
+
+    QString appPath = QCoreApplication::applicationDirPath();
+    QString pdfjsPath = appPath + "/pdfjs/web/viewer.html";
+
+    std::string url = "file:///" + pdfjsPath.toStdString();
+    std::replace(url.begin(), url.end(), '\\', '/');
 
     HWND wnd = (HWND)this->winId();
     QRect rect = this->rect();

@@ -11,6 +11,7 @@ public:
     SimpleApp();
 
     void OnContextInitialized() override;
+    void OnBeforeCommandLineProcessing(const CefString& process_type, CefRefPtr<CefCommandLine> command_line) override;
     CefRefPtr<CefBrowserProcessHandler> GetBrowserProcessHandler() override { return this; }
 
 private:
