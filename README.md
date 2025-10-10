@@ -69,7 +69,8 @@ Copyright (C) Robert Chen, 2025.
     - **Libs/CEF/bin/Debug** 与 **CEF/Resources** 下的文件复制至解决方案的生成目录 **x64/Debug** 下；
     - **Libs/CEF/bin/Release** 与 **CEF/Resources** 下的文件复制至解决方案的生成目录 **x64/Release** 下；
 
-7. Debug 模式下，在 Visual Studio 中执行：调试-开始调试，屏幕上出现应用程序窗口，并被定位至：https://www4.bing.com，则表明项目构建成功：
+7. Debug 模式下，在 Visual Studio 中执行：调试-开始调试，屏幕上出现应用程序窗口，并被定位至：https://www4.bing.com
+   这表明项目构建成功：
 
     ![](Images/Step8.png)
 
